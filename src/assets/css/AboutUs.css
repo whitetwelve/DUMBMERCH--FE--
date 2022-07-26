@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@500&family=Kaushan+Script&family=Montserrat:wght@200&display=swap');
+
+.header-contents{
+    max-width: 82rem;
+    min-width: 82rem;
+    left: 1rem;
+    top: 7rem;
+    min-height: 30rem;
+    border: solid;
+    border-radius: 5px;
+    background-color: rgb(127, 160, 252);
+}
+.title-contents p {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 52px;
+    margin-top:-1rem;
+    margin-left: 35rem;
+}
+.for-image img{
+    height: 19.7rem;
+    margin-left: 2rem;
+    width: 27rem;
+    margin-top: -3rem;
+    border-radius: 5px;
+}
+.desc{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    top: 7rem;
+    left: 31.5rem;
+    width: 20rem;
+    text-align: justify;
+}
+.desc1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    top: 7rem;
+    left: 54rem;
+    width: 25rem;
+    text-align: justify;
+}
+.for-image p{
+    margin-left: 10.4rem;
+    font-size: 32px;
+}
+#anak{
+    font-family: 'Montserrat';
+    position: absolute;
+    font-size: 19px;
+    top: 27.3rem;
+}
+.mail{
+    position: absolute;
+    left: 60rem;
+    top: 26rem;
+}
+#icon{
+    position: absolute;
+    height: 25px;
+    left: 15px;
+}
+#com{
+    top : 40rem;
+    left : 30rem;
+}
+#img-profile{
+    position: absolute;
+    left:1rem;
+    height: 4rem;
+    margin-left : -23rem;
+    border: solid;
+    margin-bottom: 3rem;
+}
+#rectangle{
+    position: absolute;
+    background-color: rgb(168, 168, 168);
+    width: 32rem;
+    min-height: 20rem;
+    left:19rem;
+    top:5.1rem;
+    border-radius: 5px;
+  }
+.profile-data {
+    left : -1rem;
+    top : 5rem;
+}
+#for-comments{
+    margin-top: 36rem;
+}
+.title-header h1{
+    text-align: center;
+}
+.left-img-profile img {
+    height: 12vh;
+    width: 5rem;
+    margin-left: -1rem;
+}
+.comment-here input{
+    position: absolute;
+    top: 49.5rem;
+    left: 15rem;
+    padding-bottom: 6rem;
+    width: 42.2rem;
+    color: black;
+}
+.triangle-left {
+	width: 0;
+	height: 0;
+	border-top: 25px solid transparent;
+	border-right: 50px solid rgb(255, 251, 251);
+	border-bottom: 25px solid transparent;
+    position: absolute;
+    top: 50.2rem;
+    left: 12.4rem;
+}
+.img-datas img {
+    height: 10vh;
+    width: 4.2rem;
+}
+.list-comments{
+    margin-top: 7rem;
+}
+.right-datas{
+    position: absolute;
+    left: 6.7rem;
+    top: 0.57rem;
+}
+.right-datas .col p {
+    font-size: 18px;
+    color: rgb(5, 4, 22);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.post-date-datas p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+    margin-top: -0.75rem;
+}
+.comment-datas p {
+    color: rgb(70, 70, 75);
+    text-align: justify;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#card{
+    width: 50rem;
+    margin-bottom: 18rem;
+}

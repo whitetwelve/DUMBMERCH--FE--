@@ -1,0 +1,31 @@
+#img {
+    max-width: 27.5rem;
+    min-width: 27.5rem;
+    min-height: 30rem ;
+    max-height: 30rem ;
+}
+.position-absolute {
+    max-width: 30rem;
+}
+.name-product p {
+    color : #F74D4D;
+    font-size : 48px;
+}
+.price p {
+    font-size: 24px;
+    color : #F74D4D;
+    margin-left: 15.6rem;
+    min-width: 20rem;
+}
+.stock-product p {
+    font-size: 18px;
+}
+.desc-product p {
+    font-size: 18px;
+    height: 15.7rem;
+    text-align: justify;
+    display: block;
+}
+.btn-buy .btn {
+    width: 30rem;
+}

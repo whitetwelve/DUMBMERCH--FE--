@@ -1,0 +1,12 @@
+body {
+    background: black;
+}
+
+.card{ 
+    height : 410px;
+    width: 241px;
+    border:none
+}
+.card .img-top{
+    height: 274px;
+}

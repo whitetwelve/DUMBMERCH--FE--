@@ -1,0 +1,27 @@
+#firstNav {
+    margin-left: 48rem;
+}
+.mt-4 { 
+    min-width: 76rem
+}
+
+.img img{
+    width : 65px;
+    position: absolute;
+    left : 2.5rem;
+    top : 0.7rem;
+    cursor: pointer;
+}
+.text-navbar {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #ffffff !important;
+  }
+  
+  .text-navbar-active {
+    font-weight: 700 !important;
+    font-size: 18px !important;
+    line-height: 25px !important;
+    color: #f74d4d !important;
+  }

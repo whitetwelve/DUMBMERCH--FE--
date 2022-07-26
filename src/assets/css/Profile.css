@@ -1,0 +1,101 @@
+.header-text p {
+    color : #F74D4D;
+    font-size: 28px;
+}
+.mt-3 img {
+    border-radius: 4px;
+    height: 34rem;
+    width: 27rem;
+}
+.position-absolute{
+    left:37.2rem;
+    font-size: 24px;
+}
+.position-absolute .bapaknya {
+    color : #F74D4D
+}
+.position-absolute .anaknya{
+    font-size: 18px;
+}
+.for-email{
+    top:20rem
+}
+.for-phone{
+    top:27rem
+}
+.for-gender{
+    top:34rem
+}
+.for-address{
+    top:41rem;
+    max-width: 30rem
+}
+.for-transaction .header-text{
+    color : #F74D4D;
+    font-size: 28px;
+}
+/* #right-side{
+    position: absolute;
+} */
+#cardss{
+    width: 524px;
+    height: 165px;
+    background: #303030;
+}
+#img-transaction{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 4px;
+    margin-top: 17px;
+}
+#isi{
+    position: absolute;
+    left:10rem
+}
+#isi .merah{
+    color : #F74D4D;
+}
+.logo img{
+    height: 5.8rem;
+    position: absolute;
+    left: 25.4rem;
+    top: 1.6rem;
+}
+.for-button .position-absolute{
+    top : 47rem;
+    left: 7.3rem;
+    width: 27.2rem;
+}
+.status-transaction-success {
+    background-color: #268d37b0;
+    margin-left: 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+  }
+  
+.status-transaction-pending {
+    background-color: #b7b933;
+    margin-left: 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+  }
+  
+.status-transaction-failed {
+    background-color: #8d26265b;
+    margin-left: 1rem;
+    margin-top: 0.15rem;
+    margin-bottom: 0.1rem;
+  }
+#tgl{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    margin-top: -15px;
+}
+#sub{
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#namabarang{
+    margin-top: 19px;
+    display: block;
+}
