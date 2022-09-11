@@ -10,3 +10,9 @@ body {
 .card .img-top{
     height: 274px;
 }
+#success-delete{
+    position: absolute;
+    top: 4rem;
+    left: -5rem;
+    min-width: 60rem;
+}

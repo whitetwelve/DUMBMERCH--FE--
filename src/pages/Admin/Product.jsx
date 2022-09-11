@@ -9,6 +9,7 @@ import { API } from "../../config/API"
 import imgEmpty from "../../assets/img/empty.png"
 import DeleteData from "../../components/modal/DeleteProduct"
 import { useParams } from 'react-router-dom';
+import "../../assets/css/Main.css"
 
 
 const AdminProduct = () => {
@@ -49,8 +50,6 @@ const handleUpdate = (id) => {
       if(response.data.status == "Success"){
         let alert = (
           <Alert variant="success" className='mt-2 position-absolute'
-          style={{top:'7.5rem',
-            left : '28rem'}}
           >{response.data.message}</Alert>
         )
           setMessage(alert)
@@ -74,16 +73,15 @@ const handleUpdate = (id) => {
     return (
         <>
         <NavbarAdmin title={title} />
-  
         <Container className="py-5 mt-5">
+        <div id="success-delete" className="success-delete mt-4">
+              {message}
+              </div>
           <Row style={{marginTop : '-2rem'}}>
             <Col xs="6">
               <div className="text-header-category"><h3>List Product</h3></div>
             </Col>
             <Col xs="6" className="text-end">
-              <div className="success-delete mt-4">
-              {message}
-              </div>
               <Button
                 variant="danger"
                 style={{ width: '100px', marginTop:'1.5rem', marginBottom:'2rem'}}

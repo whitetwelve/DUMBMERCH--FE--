@@ -33,7 +33,7 @@ const Profile = () => {
         // console.log(response.data.data.users.profile);
         return response.data.data.users.profile
     })
-    
+    console.log(profileFetchUp);
       // Fetching transactions data from database
   let { data: transactions, refetch: transactionsRefetch } = useQuery(
     "transactionsCache",
@@ -68,7 +68,7 @@ const Profile = () => {
                         <p className='mt-4'>My Profile</p>
                     </div>
                     <Col className='mt-3'>
-                        <img className="d-block mb-5" src={preview ? `http://localhost:5000/uploads/` + preview :Kosong} />
+                        <img className="d-block mb-5" src={preview ? preview :Kosong} />
                     </Col>
                     <Col className="mb-1 min-vh-100">
                         <div className="name-profile mt-5 position-absolute">

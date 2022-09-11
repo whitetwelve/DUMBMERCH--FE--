@@ -41,7 +41,7 @@ const UpdateProfile = () => {
           address : fetchUpProfile?.address
         })
     },[fetchUpProfile])
-
+    console.log(fetchUpProfile);
     const handleOnChange = (e) => {
         setForm({
             ...form,
@@ -79,6 +79,8 @@ const UpdateProfile = () => {
             console.log(error);
         }
     })
+
+    console.log(preview);
     return (
         <Container>     
             <Navbar title={title}/>
